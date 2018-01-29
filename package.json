@@ -1,6 +1,6 @@
 {
   "name": "axios-collection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Iterate through items in a paginated JSON collection",
   "main": "src",
   "files": [
