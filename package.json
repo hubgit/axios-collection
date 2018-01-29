@@ -1,0 +1,16 @@
+{
+  "name": "axios-collection",
+  "version": "0.1.0",
+  "description": "Iterate through items in a paginated JSON collection",
+  "main": "src",
+  "files": [
+    "src"
+  ],
+  "repository": "hubgit/axios-collection",
+  "author": "Alf Eaton <eaton.alf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "parse-link-header": "^1.0.1"
+  }
+}
