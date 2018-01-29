@@ -22,6 +22,6 @@ const repositories = collection('https://api.github.com/search/repositories', {
   for await (const repository of repositories) {
     console.log(repository)
   }
-})
+})()
 
 ```
