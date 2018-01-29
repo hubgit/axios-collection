@@ -7,7 +7,7 @@
 require('axios-debug-log')
 const collection = require('axios-collection')
 
-const journals = collection('https://api.github.com/search/repositories', {
+const repositories = collection('https://api.github.com/search/repositories', {
   params: {
     sort: 'stars',
     order: 'desc',
@@ -19,8 +19,8 @@ const journals = collection('https://api.github.com/search/repositories', {
 })
 
 (async () => {
-  for await (const journal of journals) {
-    console.log(journal)
+  for await (const repository of repositories) {
+    console.log(repository)
   }
 })
 
