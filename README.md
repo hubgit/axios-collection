@@ -18,7 +18,7 @@ const repositories = collection('https://api.github.com/search/repositories', {
   }
 })
 
-(async () => {
+;(async () => {
   for await (const repository of repositories) {
     console.log(repository)
   }
