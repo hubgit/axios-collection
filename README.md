@@ -18,10 +18,17 @@ const repositories = collection('https://api.github.com/search/repositories', {
   }
 })
 
-;(async () => {
-  for await (const repository of repositories) {
-    console.log(repository)
+const fetch = async () => {
+  for await (const item of items) {
+    console.log(item)
   }
-})()
+}
 
+fetch()
+  .then(() => {
+    console.info('finished')
+  })
+  .catch(error => {
+    console.error(error)
+  })
 ```
