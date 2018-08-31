@@ -1,0 +1,13 @@
+{
+  "name": "axios-collection-example",
+  "private": true,
+  "version": "0.1.1",
+  "description": "An example of iterating through items in a paginated JSON collection",
+  "main": "index.js",
+  "author": "Alf Eaton <eaton.alf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios-collection": "*",
+    "axios-debug-log": "^0.4.0"
+  }
+}
