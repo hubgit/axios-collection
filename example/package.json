@@ -7,6 +7,7 @@
   "author": "Alf Eaton <eaton.alf@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "axios-collection": "*",
     "axios-debug-log": "^0.4.0"
   }

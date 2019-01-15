@@ -10,7 +10,12 @@
   "author": "Alf Eaton <eaton.alf@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.17.1",
     "parse-link-header": "^1.0.1"
+  },
+  "devDependencies":  {
+    "axios": "^0.17.1"
+  },
+  "peerDependencies": {
+    "axios": "^0.17.1"
   }
 }

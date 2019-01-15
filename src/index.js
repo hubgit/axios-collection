@@ -20,7 +20,7 @@ module.exports = async function* (url, options = {}) {
 function nextLinkHeader(response) {
   const links = parseLinkHeader(response.headers.link)
 
-  if (!links.next) {
+  if (!links || !links.next) {
     return null
   }
 
