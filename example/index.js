@@ -1,5 +1,6 @@
 require('axios-debug-log')
-const collection = require('axios-collection')
+const axios = require('axios')
+const collection = require('axios-collection')(axios)
 
 const items = collection('https://api.github.com/search/repositories', {
   params: {

@@ -1,7 +1,6 @@
-const axios = require('axios')
 const parseLinkHeader = require('parse-link-header')
 
-module.exports = async function* (url, options = {}) {
+module.exports = (axios) => async function* (url, options = {}) {
   const { parse, next, ...rest } = options
 
   while (url) {
